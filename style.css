@@ -122,6 +122,14 @@ body {
   top: 20px;
 }
 
+.c2 p{
+    width: 105%;
+    
+}
 .c3 {
   top: 40px;
+}
+
+.c3 p{
+    width: 110%;
 }
