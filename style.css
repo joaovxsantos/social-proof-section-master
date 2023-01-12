@@ -70,49 +70,58 @@ body {
   margin-left: calc(40px + 40px);
 }
 
-.cards{
-    display: flex;
-    padding: 50px;
-    width: 1000px;
-    background: red;
+.cards {
+  display: flex;
+  gap: 20px;
+  padding: 50px;
+  width: 1000px;
+  /* background: red; */
+  position: relative;
 }
 
-.card{
-    padding: 20px ;
-    /* padding-bottom:35px; */
-    font-size: 15px;
-    background: hsl(300, 43%, 22%);
-    color: #fff;
-    border-radius: 5px;
+.card {
+  padding: 20px;
+  font-size: 15px;
+  background: hsl(300, 43%, 22%);
+  color: #fff;
+  border-radius: 5px;
 }
 
-.card img{
-    border-radius: 50%;
-    width: 50px;
+.card img {
+  border-radius: 50%;
+  width: 50px;
 }
 
-
-.head-card{
-    display: flex;
-    align-items: center;
-    gap: 20px;
+.head-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
-
-.text-head h2{
-    font-size: 15px;
-    margin-bottom: 5px;
+.text-head h2 {
+  font-size: 15px;
+  margin-bottom: 5px;
 }
 
-.card p{
-    margin-top:20px ;
-    line-height: 20px;
+.card p {
+  margin-top: 20px;
+  line-height: 20px;
 }
 
-
-.card label{
-    color: hsl(333, 80%, 67%);
+.card label {
+  color: hsl(333, 80%, 67%);
 }
 
+.c1,
+.c2,
+.c3 {
+  position: relative;
+}
 
+.c2 {
+  top: 20px;
+}
 
+.c3 {
+  top: 40px;
+}
