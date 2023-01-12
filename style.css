@@ -18,7 +18,7 @@ body {
 .main {
   display: flex;
   padding: 40px;
-  
+
   /* background: red; */
   width: 1000px;
 }
@@ -67,27 +67,52 @@ body {
 }
 
 .three {
-  margin-left:calc(40px + 40px);
+  margin-left: calc(40px + 40px);
 }
 
-
 .cards{
-   background: red;
-   display: flex;
-   padding: 40px;
-   width: 1000px;
-   color: #fff;
+    display: flex;
+    padding: 50px;
+    width: 1000px;
+    background: red;
 }
 
 .card{
-    
-    padding: 20px;
+    padding: 20px ;
+    /* padding-bottom:35px; */
+    font-size: 15px;
     background: hsl(300, 43%, 22%);
+    color: #fff;
+    border-radius: 5px;
 }
 
 .card img{
     border-radius: 50%;
-    float: left;
+    width: 50px;
 }
+
+
+.head-card{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.text-head h2{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.card p{
+    margin-top:20px ;
+    line-height: 20px;
+}
+
+
+.card label{
+    color: hsl(333, 80%, 67%);
+}
+
 
 
