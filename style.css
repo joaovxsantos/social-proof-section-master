@@ -18,20 +18,16 @@ body {
 .main {
   display: flex;
   padding: 40px;
-
-  /* background: red; */
   width: 1000px;
 }
 
 .text {
-  /* background: green; */
   max-width: 400px;
   padding: 20px;
   color: hsl(300, 43%, 22%);
 }
 
 .text h1 {
-  /* background-color: red; */
   width: 250px;
 }
 
@@ -43,7 +39,6 @@ body {
 .images {
   padding: 20px;
   width: 1000px;
-  /* background: red;  */
 }
 
 .box {
@@ -62,6 +57,11 @@ body {
   margin-left: 8px;
 }
 
+.box p{
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+}
+
 .two {
   margin-left: 40px;
 }
@@ -75,7 +75,6 @@ body {
   gap: 20px;
   padding: 50px;
   width: 1000px;
-  /* background: red; */
   position: relative;
 }
 
@@ -122,14 +121,75 @@ body {
   top: 20px;
 }
 
-.c2 p{
-    width: 105%;
-    
+.c2 p {
+  width: 105%;
 }
 .c3 {
   top: 40px;
 }
 
-.c3 p{
-    width: 110%;
+.c3 p {
+  width: 110%;
+}
+
+@media screen and (max-width: 850px) {
+  .main {
+    max-width: 800px;
+  }
+
+  .cards {
+    display: flex;
+    width: 800px;
+    position: relative;
+  }
+
+  .box img {
+    margin-left: 8px;
+  }
+
+  .two {
+    margin-left: 10px;
+  }
+
+  .three {
+    margin-left: calc(40px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    margin: auto;
+    width: 395px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text h1,
+  .text p {
+    text-align: center;
+  }
+
+  .images {
+    width: 300px;
+  }
+
+  .box {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .two,
+  .three {
+    margin-left: 0;
+  }
+
+  .cards {
+    flex-direction: column;
+    width: 395px;
+  }
+
+  .card {
+    width: 100%;
+  }
 }
